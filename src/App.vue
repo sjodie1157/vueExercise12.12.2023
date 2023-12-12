@@ -9,9 +9,6 @@
           <img :src="item.imgLink" alt="pic" loading="lazy">
           <p>R {{ item.price }}</p>
         </div>
-        <div class="card-footer">
-          <a href="#" type="button">View Detail</a>
-        </div>
       </div>
         <h2 v-show="filteredItems == 0">No Products</h2>
       </div>
